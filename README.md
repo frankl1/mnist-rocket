@@ -22,3 +22,6 @@ In this repository, we use ROCKET to classify the MNIST dataset. ROCKET is CNN t
 
 - ROCKET achieves $96\%$ accuracy using only $400$ random filters. 
 - Probably this result can be increased by using more filters
+
+## Conclusion
+Although ROCKET is designed for time series classification, it is quite good at classifying images represented as time series of pixels. The most interesting finding here is that the performance is achieved using random filters, the number of learnable parameters in this network is nothing compared to deep neural networks built for image classification.
